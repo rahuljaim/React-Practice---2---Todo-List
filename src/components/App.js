@@ -72,7 +72,7 @@ function App() {
       <button
         id="btn"
         onClick={function () {
-          if (todoList !== "") {
+          if (todoList !== "" && task!=="") {
             setTodoList([...todoList, task]);
             setTask("");
           }
